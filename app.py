@@ -31,7 +31,7 @@ def extract_video_id(url):
 @app.route('/')
 def index():
 
-    return render_template('h.html')
+    return render_template('t.html')
 
 
 
@@ -98,7 +98,7 @@ def analyze():
             'translated_text': translated_text  # Add translated text to result
         }
 
-        return render_template('r.html', result=result)
+        return render_template('t.html', result=result)
     else:
         return 'Please provide some text, upload a file, or enter a YouTube URL.'
 if __name__ == '__main__':
