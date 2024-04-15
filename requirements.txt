@@ -1,1 +1,6 @@
 Flask==3.0.3
+nltk==3.6.5
+deep-translator==1.5.5
+youtube-transcript-api==0.4.1
+vaderSentiment==3.3.2
+spacy==3.2.1
