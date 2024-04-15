@@ -1,4 +1,4 @@
-python==3.8
+python==3.9
 Flask==2.0.3
 nltk==3.6.5
 deep-translator==1.5.5
